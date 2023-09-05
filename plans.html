@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plans</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="big-container">
+        <div class="plan-container">
+            <h2>Choose the right plan for you</h2> 
+            
+            <div class="first-row">
+                <div class="first-col">
+                    <!-- <div class="two-buttons">
+                        <div id="btnM"></div>
+                        <button class="mny-button" id="month-button">Monthly</button>
+                        <button class="mny-button" id="year-button">Yearly </button>
+                    </div> -->
+                    <div class="two-buttons">
+                        <div id="btn"></div>
+                        <button class="mny-button" id="month-button">Monthly</button>
+                        <button class="mny-button" id="year-button">Yearly</button>
+                    </div>
+
+                    <div class="plan-details">
+                        <div class="info">Monthly price</div>
+                        <div class="info">Video quality</div>
+                        <div class="info">Resolution</div>
+                        <div class="info">Devices</div>
+                    </div>                    
+                </div>
+                
+                <div class="all-packs">
+                    <div class="second-col">
+                        <div class="pack">
+                            <div class="mobile">
+                                <div class="plan-button" onclick="changeColor(0)">
+                                    <div class="mobile-down"></div>
+                                    Mobile
+                                </div>
+                                
+                                <div class="mobile-box">
+                                    <div class="box-info" id="mobile-rate">$ 100</div>
+                                    <div class="box-info">Good</div>
+                                    <div class="box-info">480p</div>
+                                    <div class="box-info">
+                                        <div class="smallbox-info">Phone</div>
+                                        <div class="smallbox-info">Tablet</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="third-col">
+                        <div class="pack">
+                            <div class="basic">
+                                <div class="plan-button" onclick="changeColor(1)">
+                                    <!-- <div class="basic-down"></div> -->
+                                    Basic
+                                </div>
+
+                                <div class="mobile-box">
+                                    <div class="box-info" id="basic-rate">$ 200</div>
+                                    <div class="box-info">Good</div>
+                                    <div class="box-info">480p</div>
+                                    <div class="box-info">
+                                        <div class="smallbox-info">Phone</div>
+                                        <div class="smallbox-info">Tablet</div>
+                                        <div class="smallbox-info">Computer</div>
+                                        <div class="smallbox-info">TV</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="forth-col">
+                        <div class="pack">
+                            <div class="standard">
+                                <div class="plan-button" onclick="changeColor(2)">
+                                    <!-- <div class="standard-down"></div> -->
+                                    Standard
+                                </div>
+                            
+                                <div class="mobile-box">
+                                    <div class="box-info" id="standard-rate">$ 500</div>
+                                    <div class="box-info">Better</div>
+                                    <div class="box-info">1080p</div>
+                                    <div class="box-info">
+                                        <div class="smallbox-info">Phone</div>
+                                        <div class="smallbox-info">Tablet</div>
+                                        <div class="smallbox-info">Computer</div>
+                                        <div class="smallbox-info">TV</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fivth-col">
+                        <div class="pack">
+                            <div class="premium">
+                                <div class="plan-button" onclick="changeColor(3)">
+                                    <!-- <div class="premium-down"></div> -->
+                                    Premium
+                                </div>
+
+                                <div class="mobile-box">
+                                    <div class="box-info" id="premium-rate">$ 700</div>
+                                    <div class="box-info" id="premium">Best</div>
+                                    <div class="box-info" id="premium">4K+HDR</div>
+                                    <div class="box-info" id="premium">
+                                        <div class="smallbox-info">Phone</div>
+                                        <div class="smallbox-info">Tablet</div>
+                                        <div class="smallbox-info">Computer</div>
+                                        <div class="smallbox-info">TV</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            
+            </div>
+            
+            <button class="next-buttons">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
